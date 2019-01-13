@@ -1,0 +1,10 @@
+*.log
+*.DS_Store
+src
+node_modules
+.babelrc
+.eslintrc
+example
+coverage
+exampleDist
+.cache
