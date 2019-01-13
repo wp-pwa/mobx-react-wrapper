@@ -23,7 +23,9 @@
     "test:coverage": "jest --coverage",
     "test:ci": "jest",
     "cz": "git-cz",
-    "lint-staged": "lint-staged"
+    "lint-staged": "lint-staged",
+    "report-coverage": "cat ./coverage/lcov.info | coveralls",
+    "semantic-release": "semantic-release"
   },
   "keywords": [
     "mobx",

@@ -14,4 +14,4 @@ install: yarn
 script: yarn test:ci && yarn build
 after_success:
   - yarn report-coverage
-  - npm run semantic-release
+  - yarn semantic-release
