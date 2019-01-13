@@ -13,5 +13,4 @@ cache:
 install: yarn
 script: yarn test:ci && yarn build
 after_success:
-  - yarn report-coverage
   - yarn semantic-release

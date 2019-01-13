@@ -23,7 +23,6 @@
     "test:ci": "jest --coverage",
     "cz": "git-cz",
     "lint-staged": "lint-staged",
-    "report-coverage": "cat ./coverage/lcov.info | coveralls",
     "semantic-release": "semantic-release"
   },
   "keywords": [
