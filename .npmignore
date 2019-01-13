@@ -8,3 +8,5 @@ example
 coverage
 exampleDist
 .cache
+__tests__
+.*
