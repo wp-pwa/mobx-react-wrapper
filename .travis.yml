@@ -5,11 +5,10 @@ branches:
   except:
     - /^v\d+\.\d+\.\d+$/
 cache:
-  yarn: true
   directories:
     - node_module
     - ~/.cache
-install: yarn
-script: yarn test:ci && yarn build
+    - ~/.npm
+script: npm run test:ci && npm run build
 after_success:
-  - yarn semantic-release
+  - npm run semantic-release
