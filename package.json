@@ -10,8 +10,8 @@
     "url": "https://github.com/frontity/mobx-react-wrapper/issues"
   },
   "homepage": "https://github.com/frontity/mobx-react-wrapper#readme",
-  "main": "dist/mobx-react-wrapper.js",
-  "module": "dist/mobx-react-wrapper.m.js",
+  "main": "dist/mobx-react-wrapper",
+  "module": "dist/mobx-react-wrapper.mjs",
   "source": "src/index.js",
   "license": "Apache-2.0",
   "scripts": {
