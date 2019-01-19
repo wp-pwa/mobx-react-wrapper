@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/frontity/mobx-react-wrapper/compare/v1.0.1...v1.0.2) (2019-01-19)
+
+
+### Bug Fixes
+
+* **esmodules:** change module extension to .mjs ([c803748](https://github.com/frontity/mobx-react-wrapper/commit/c803748))
+
 ## [1.0.1](https://github.com/frontity/mobx-react-wrapper/compare/v1.0.0...v1.0.1) (2019-01-14)
 
 
