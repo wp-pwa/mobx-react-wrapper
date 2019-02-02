@@ -1,5 +1,9 @@
 import { useObserver } from 'mobx-react-lite';
 
+Object.defineProperty(exports, '__esModule', {
+  value: true,
+});
+
 let store = null;
 
 export const setStore = newStore => {
@@ -11,7 +15,7 @@ const wrap = selector => baseComponent => {
     if (store === null)
       throw new Error('Please, use setStore before your ReactDOM.render call');
     return useObserver(() =>
-      baseComponent({ ...ownProps, ...selector(store, ownProps) })
+      baseComponent({ ...ownProps, ...selector(store, ownProps) }),
     );
   };
   component.displayName = baseComponent.name;
