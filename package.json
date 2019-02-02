@@ -52,7 +52,9 @@
     "cz-conventional-changelog": "^2.1.0",
     "eslint": "^5.7.0",
     "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.0.0",
     "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jest": "^22.2.2",
     "eslint-plugin-jsx-a11y": "^6.1.2",
     "eslint-plugin-react": "^7.11.1",
     "husky": "^1.3.1",
@@ -75,6 +77,6 @@
     "react": "16.7.0-alpha.2 || 16.8.0-alpha.0"
   },
   "dependencies": {
-    "mobx-react-lite": "^0.3.5"
+    "mobx-react-lite": "^0.3.6"
   }
 }
